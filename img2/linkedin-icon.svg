@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_22" data-name="Retângulo 22" width="60" height="60" transform="translate(1602 4339)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_6" data-name="Grupo de máscara 6" transform="translate(-1602 -4339)" clip-path="url(#clip-path)">
+    <g id="g5891" transform="translate(1602 4339)">
+      <path id="background" d="M60,7.5A7.5,7.5,0,0,0,52.5,0H7.5A7.5,7.5,0,0,0,0,7.5v45A7.5,7.5,0,0,0,7.5,60h45A7.5,7.5,0,0,0,60,52.5Z" fill="#2867b2" fill-rule="evenodd"/>
+      <g id="shapes">
+        <rect id="rect11" width="10.05" height="30.23" transform="translate(7.155 20.938)" fill="#fff"/>
+        <path id="path13-0" d="M12.248,6.361c-3.438,0-5.685,2.261-5.685,5.223a5.2,5.2,0,0,0,5.552,5.224h.065c3.5,0,5.685-2.323,5.685-5.224-.065-2.963-2.181-5.223-5.617-5.223Z" fill="#fff"/>
+        <path id="path15" d="M41.869,20.227a9.98,9.98,0,0,0-9.056,4.991v-4.28H22.765c.133,2.836,0,30.23,0,30.23H32.813V34.285a6.868,6.868,0,0,1,.331-2.453A5.5,5.5,0,0,1,38.3,28.158c3.634,0,5.09,2.773,5.09,6.835V51.167H53.437V33.832C53.437,24.546,48.48,20.227,41.869,20.227Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
