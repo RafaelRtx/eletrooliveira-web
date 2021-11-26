@@ -65,12 +65,12 @@
             <h1>Tipos de Serviços Prestados</h1>
         </div>
 
-        <div class="tipos-servicos container">
+        <div class="tipos-servicos container js-tabmenu">
             <ul>
                 <li>
                     <div class="img-loteamento">
                         <div data-tilt data-tilt-max='4' data-tilt-speed='1000' data-tilt-glare='true' data-tilt-max-glare=.08 data-tilt data-tilt-scale="1.03">
-                        <img src="img2/loteamento.png" alt="loteamento">
+                            <a data-modal="abrir" href="modal.html"><img src="img2/loteamento.png" alt="loteamento"></a>
                         </div>
                         <h2 class="titulo-loteamento">Redes de Distribuição Urbana (Loteamentos)<h2>
                     </div>
@@ -83,7 +83,7 @@
                 <li>
                     <div class="img-cabine">
                         <div data-tilt data-tilt-max='4' data-tilt-speed='1000' data-tilt-glare='true' data-tilt-max-glare=.08 data-tilt data-tilt-scale="1.03">
-                        <img src="img2/cabine-forca.png" alt="cabine de força">
+                            <a data-modal="abrir" href="modal.html"><img src="img2/cabine-forca.png" alt="cabine de força"></a>
                         </div>
                         <h2 class="titulo-cabine-forca">Cabines de força<h2>
                     </div>
@@ -96,7 +96,7 @@
                 <li>
                     <div class="img-elet-rural">
                         <div data-tilt data-tilt-max='4' data-tilt-speed='1000' data-tilt-glare='true' data-tilt-max-glare=.08 data-tilt data-tilt-scale="1.03">
-                        <img src="img2/elet-rural.png" alt="rede rural">
+                            <a data-modal="abrir" href="modal.html"><img src="img2/elet-rural.png" alt="rede rural"></a>
                         </div>
                         <h2 class="titulo-elet-rural">Eletrificação Rural<h2>
                     </div>
@@ -109,7 +109,7 @@
                 <li>
                     <div class="img-spda">
                         <div data-tilt data-tilt-max='4' data-tilt-speed='1000' data-tilt-glare='true' data-tilt-max-glare=.08 data-tilt data-tilt-scale="1.03">
-                        <img src="img2/spda.png" alt="Spda">
+                            <a data-modal="abrir" href="modal.html"><img src="img2/spda.png" alt="Spda"></a>
                         </div>
                         <h2 class="titulo-spda">Sistemas de proteção contra descargas
                            atmosféricas (SPDA)<h2>
@@ -123,7 +123,7 @@
                 <li>
                     <div class="img-solar">
                         <div data-tilt data-tilt-max='4' data-tilt-speed='1000' data-tilt-glare='true' data-tilt-max-glare=.08 data-tilt data-tilt-scale="1.03">
-                        <img src="img2/cabine-solar.png" alt="Spda">
+                            <a data-modal="abrir" href="modal.html"><img src="img2/cabine-solar.png" alt="Spda"></a>
                         </div>
                         <h2 class="titulo-solar">Cubículos de medição para usinas
                             fotovoltaicas<h2>
@@ -134,6 +134,68 @@
                 </li>
             </ul>
         </div>
+
+        <section class="modal-container" data-modal="container">
+            <div class="modal-bg">
+              <button data-modal="fechar" class="fechar">X</button>
+              <div class="modal">
+                <h2>Serviços de loteamento</h2>
+                <div class="js-tabcontent">
+                  <ul class="imagens-modal">
+                    <li>
+                      <div>
+                        <img src="img2/sobre-1.jpg">
+                      </div>
+                    </li>
+        
+                    <li>
+                      <div>
+                        <img src="img2/sobre-2.jpg">
+                      </div>
+                    </li>
+        
+                    <li>
+                      <div>
+                        <img src="img2/sobre-3.jpg">
+                      </div>
+                    </li>
+        
+                    <li>
+                      <div>
+                        <img src="img2/sobre-4.jpg">
+                      </div>
+                    </li>
+                  </ul>
+        
+                  <ul class="imagens-modal">
+                    <li>
+                      <div>
+                        <img src="img2/sobre-4.jpg">
+                      </div>
+                    </li>
+        
+                    <li>
+                      <div>
+                        <img src="img2/sobre-3.jpg">
+                      </div>
+                    </li>
+        
+                    <li>
+                      <div>
+                        <img src="img2/sobre-2.jpg">
+                      </div>
+                    </li>
+        
+                    <li>
+                      <div>
+                        <img src="img2/sobre-1.jpg">
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+          </section>
 
     </section>
 
@@ -214,6 +276,7 @@
 
 <script src="js/anime.js"></script>
 <script src= 'tilt.min.js'></script>
+<script src="js/script.js"></script>
 
 <script SameSite="None; Secure" src="https://static.landbot.io/landbot-3/landbot-3.0.0.js"></script>
 <script>
