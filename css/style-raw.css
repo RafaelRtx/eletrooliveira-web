@@ -73,6 +73,10 @@ img {
   color: #484848;
 }
 
+.menu-nav ul li a:hover{
+  border-bottom: 3px solid #ff2e34;
+}
+
 .border-ativo {
   border-bottom: 1px solid black;
   font-size: 90%;
@@ -1335,6 +1339,10 @@ img {
 
   .menu-nav ul li a {
     margin: 0px 40px 0 40px;
+  }
+
+  .menu-nav ul li a:hover{
+    border-bottom: 3px solid #ff2e34;
   }
 
   .menu-nav ul {
